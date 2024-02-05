@@ -1,1 +1,1 @@
-# analysis-of-Clarke2017-replication-study
+This repository is part of a large replication project conducted by the Sports Science Replication Centre (https://ssreplicationcentre.com/). It includes the data and analyses for the replication study of "Carbohydrate mouth rinse improves morning high-intensity exercise performance" by Clarke et al (2017).
