@@ -193,19 +193,12 @@ pes_orig
 # Replication test -----
 
 pes_rep_eta = anova_rep_data_afx$anova_table$pes
-df_rep = 34
+df_rep = anova_rep_data_afx$anova_table$`den Df`
 pes_orig_eta = anova_orig_data_afx$anova_table$pes
 df_ori = 22
 
 rho_ori = 2 * sqrt(pes_orig_eta) - 1
 rho_rep = 2 * sqrt(pes_rep_eta) - 1
-
-rep_test = TOSTER::compare_cor(r2 = rho_ori,
-                               df2 = df_ori,
-                               r1 = rho_rep,
-                               df1 = df_rep,
-                               alternative = "less")
-rep_test
 
 rep_test = TOSTER::compare_cor(r1 = rho_ori,
                                df1 = df_ori,
