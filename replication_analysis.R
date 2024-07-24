@@ -8,6 +8,8 @@ library(pastecs)
 library(MOTE)
 library(janitor)
 
+set.seed(21)
+
 # Replication data --------------------------------------------------------------------
 
 # Load rep_data
